@@ -1,8 +1,9 @@
 # Описание структуры классов:
-Asset - Основные средства, учитываемые на предприятии
-Asset\ElectronicDevice - Подкатегория: электронных устройств
-Asset\ElectronicDevice\ComputerComponents - Компьютерные компоненты, включающие:
+
+Asset - основные средства, учитываемые на предприятии
+Asset\ElectronicDevice - подкатегория: электронных устройств
+Asset\ElectronicDevice\ComputerComponents - компьютерные компоненты, включающие:
 Asset\ElectronicDevice\ComputerComponents\CPU
-						 			  ..\MotherBoard
-						      		  ..\NetworkCard
-PersonalComputer - класс, содержит в себе набор компонентов
+				       ..\MotherBoard
+				       ..\NetworkCard
+PersonalComputer - класс, содержит в себе список компонентов
